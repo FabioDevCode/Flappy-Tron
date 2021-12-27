@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive, Helvetica, sans-serif;
+    user-select: none;
+    background-color: #180C3C;
+}
+
+h1, .score-box, footer {
+    color: white;
+}
+
+h1, .score-box {
+    background: #171221;
+}
+
+header {
+    margin: 0 auto;
+    width: 431px;
+}
+
+h1 {
+    background: linear-gradient(0deg, #2B1247 0%, #171321 100%);
+    padding: 1.2rem 0;
+}
+
+.score-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 6px;
+    background: linear-gradient(0deg, #171321 0%, #2B1247 100%);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 431px;
+    margin: 0 auto;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div p {
+    line-height: 22px;
+}
+
+footer div img {
+    height: 15px;
+    margin: 0px 10px 2px 10px;
+}
