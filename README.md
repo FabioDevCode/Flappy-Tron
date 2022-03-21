@@ -1,2 +1,5 @@
 # Flappy-Tron
-FLAPPY TRON | Jeu vidéo d'obstacles
+
+<div style="width: 100%">
+  <img src="./images/flapetron2.jpg">
+</div>
