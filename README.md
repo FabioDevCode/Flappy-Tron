@@ -7,15 +7,3 @@
 <h3 align="center">Jeu vidéo d'obstacles</h3>
 
 <br>
-
-<table align="center">
-  <tr>
-    <td>
-      <a href="https://fabiodevcode.github.io/Flappy-Tron/">
-        <b>JOUER EN CLIQUANT ICI</b>
-      </a>  
-    </td>
-  </tr>
-</table>
-
-<h2></h2>
