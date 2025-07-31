@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+html, body {
+    overscroll-behavior: none;
+}
+
 button, a, input, textarea {
   touch-action: manipulation;
 }
@@ -27,7 +31,8 @@ h1, .score-box {
 
 header {
     margin: 0 auto;
-    width: 431px;
+    max-width: 431px;
+    width: 100%;
 }
 
 h1 {
@@ -37,16 +42,29 @@ h1 {
 
 .score-box {
     display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
     justify-content: space-between;
     padding: 8px 6px;
     background: linear-gradient(0deg, #171321 0%, #2B1247 100%);
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    max-width: 431px;
+    width: 100%;
+    aspect-ratio: 431 / 768;
+    height: auto;
+    max-height: 768px;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 431px;
+    max-width: 431px;
+    width: 100%;
     margin: 0 auto;
 }
 
