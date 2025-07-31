@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+button, a, input, textarea {
+  touch-action: manipulation;
+}
+
 body {
     text-align: center;
     font-family: 'Press Start 2P', cursive, Helvetica, sans-serif;

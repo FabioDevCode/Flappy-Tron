@@ -1,0 +1,22 @@
+{
+  "name": "Flappy Tron",
+  "short_name": "FlappyTron",
+  "start_url": "/Flappy-Tron/",
+  "scope": "/Flappy-Tron/",
+  "display": "standalone",
+  "background_color": "#0ff",
+  "theme_color": "#0ff",
+  "description": "Un Flappy Bird futuriste façon Tron.",
+  "icons": [
+    {
+      "src": "/Flappy-Tron/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/Flappy-Tron/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

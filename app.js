@@ -28,7 +28,6 @@ const setup = () => {
     actualScore = 0;
     flight = jump;
     flyHeight = (canvas.height / 2) - (size[1] / 2);
-    
     obstacles = Array(3).fill().map((a, i) => [canvas.width + (i * (wallGap + wallWidth)), wallLoc()]);
 }
 
