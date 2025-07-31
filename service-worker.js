@@ -7,7 +7,6 @@ const FILES_TO_CACHE = [
   '/Flappy-Tron/manifest.json',
   '/Flappy-Tron/icons/icon-192x192.png',
   '/Flappy-Tron/icons/icon-512x512.png',
-  // Ajoute ici d'autres fichiers à mettre en cache (images, sons, etc.)
 ];
 
 self.addEventListener('install', event => {
