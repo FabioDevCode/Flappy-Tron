@@ -1,7 +1,7 @@
 const canvas = document.querySelector('#canvas');
 const ctx = canvas.getContext('2d');
 const img = new Image();
-img.src = './images/flapetronset.png';
+img.src = './images/flappytronaresset.png';
 
 // Réglages général
 let gamePlaying = false;
@@ -53,9 +53,10 @@ const render = () => {
         flyHeight = (canvas.height / 2) - (size[1] / 2);
 
         // Texte
-        ctx.fillText(`Meilleur score : ${bestScore}`, 55, 245);
+        ctx.fillStyle = "whitesmoke";
+        ctx.font = "bold 18px 'Press Start 2P', cursive, Helvetica, sans-serif";
+        // ctx.fillText(`Meilleur score : ${bestScore}`, 55, 245);
         ctx.fillText('Cliquez pour jouer', 48, 535);
-        ctx.font = "bold 30px courier";
     }
 
     // Obstacles

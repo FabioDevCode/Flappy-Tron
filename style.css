@@ -19,6 +19,7 @@ body {
     font-family: 'Press Start 2P', cursive, Helvetica, sans-serif;
     user-select: none;
     background-color: #180C3C;
+    background-color: #050C0D;
 }
 
 h1, .score-box, footer {
@@ -33,20 +34,24 @@ header {
     margin: 0 auto;
     max-width: 431px;
     width: 100%;
+    background: linear-gradient(0deg, #9384AE 0%, #050C0D 100%);
 }
 
 h1 {
-    background: linear-gradient(0deg, #2B1247 0%, #171321 100%);
-    padding: 1.2rem 0;
+    background: linear-gradient(0deg, #9384AE 0%, #050C0D 40%);
+    padding: 10px 0;
+    font-size: 20px;
 }
 
 .score-box {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 6px;
+    color: #050C0D;
     justify-content: space-between;
-    padding: 8px 6px;
-    background: linear-gradient(0deg, #171321 0%, #2B1247 100%);
+    padding: 4px 10px;
+    font-size: 14px;
+    background-color: #9384AE;
 }
 
 canvas {
@@ -77,6 +82,7 @@ footer div {
 
 footer div p {
     line-height: 22px;
+    font-size: 14px;
 }
 
 footer div img {
